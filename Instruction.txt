@@ -1,0 +1,33 @@
+
+Notes on the Simulator
+
+1. Simulator Compatibility  
+   - The simulator is currently designed to work specifically with the 118-bus network.  
+   - It *can* function with other networks, but those implementations are not yet completed or tested.  
+
+2. Directory Structure  
+   - There is a folder named "working_on_118", which includes sample data for the 118-bus network.  
+   - For detailed information about these samples, refer to Chapter 4 of the thesis.
+
+3. Edges Data  
+   - The file "EDGES.py" contains data used for reproducibility.  
+   - It has pre-generated datasets for removing edges, with probabilities ranging from 0% to 100%.  
+   - For each probability level, about 400 samples were generated randomly.  
+
+4. Key Code Information in "main.py"  
+   - At line 31 in "main.py", the command  
+     "python
+     Sample_Edge = Edges[1:5:1, 1::25]
+     "  
+     - The range "1:5:1" corresponds to probabilities [5%, 10%, 15%, 20%].  
+     - The step "1::25" reduces the total samples from 400 to 20 by selecting every 25th sample.  
+     - You can modify these ranges or steps as needed to test different configurations.  
+
+5. Variables "renew" and "renew2"  
+   - In "main.py", there are two adjustable variables: "renew" and "renew2".  
+   - These variables control:  
+     - "renew": The amount of available capacity.  
+     - "renew2": The number of potential nodes (buses).  
+   - Modify these values to explore alternative setups or scenarios.
+
+Farewell!  

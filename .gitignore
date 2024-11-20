@@ -1,0 +1,7 @@
+# Ignore all log files
+*.log
+
+# Ignore node_modules directory
+plots/
+Buss118/
+test.ipynb
