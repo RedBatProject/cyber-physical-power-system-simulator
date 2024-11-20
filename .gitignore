@@ -8,3 +8,5 @@ Buss118/
 *ipynb
 /__pychache__
 __pychache__/
+/.ipynb_checkpoints
+.ipynb_checkpoints/
