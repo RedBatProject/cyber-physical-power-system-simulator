@@ -1,7 +1,10 @@
+/__pycache__
 # Ignore all log files
 *.log
 
 # Ignore node_modules directory
 plots/
 Buss118/
-test.ipynb
+*ipynb
+/__pychache__
+__pychache__/
